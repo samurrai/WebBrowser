@@ -1,0 +1,15 @@
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe.config
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\bin\Debug\WebBrowser.exe
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\bin\Debug\WebBrowser.pdb
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csprojAssemblyReference.cache
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\MainWindow.g.cs
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\App.g.cs
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser_MarkupCompile.cache
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser_MarkupCompile.lref
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\MainWindow.baml
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.g.resources
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.Properties.Resources.resources
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource.cache
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.exe
+C:\Users\ШадикьянР\source\repos\WebBrowser\WebBrowser\obj\Debug\WebBrowser.pdb
