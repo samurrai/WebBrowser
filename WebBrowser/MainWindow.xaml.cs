@@ -32,35 +32,38 @@ namespace WebBrowser
 
         private void CloseTab(object sender, RoutedEventArgs e)
         {
-            tabs.Items.Remove(currentTab);
+            for (int i = 0; i < tabs.Items.Count; i++)
+            {
+                if (((tabs.Items[i] as TabItem).Header as StackPanel) != null &&
+                    ((((tabs.Items[i] as TabItem).Header as StackPanel).Children[1] as Button) == (sender as Button)))
+                {
+                    tabs.Items.Remove(tabs.Items[i]);
+                }
+            }
         }
 
         private void AddTab(object sender, RoutedEventArgs e)
         {
             StackPanel stackPanel = new StackPanel {
-                Orientation = Orientation.Vertical
+                Orientation = Orientation.Horizontal
             };
             stackPanel.Children.Add(new Label {
                 Content = "Новая страница"
             });
-            stackPanel.Children.Add(new Button
-            {
-                Content = "x"
-            });
+            Button button = new Button();
+            button.Content = "x";
+            button.Click += CloseTab;
+
+            stackPanel.Children.Add(button);
             TabItem tabItem = new TabItem()
             {
-                Header = new StackPanel
-                {
-                    
-                }
+                Header = stackPanel
             };
-            tabs.Items.Insert(tabs.Items.Count - 1, currentTab);
-            tabs.SelectedItem = tabs.Items[tabs.Items.Count - 1];
-
-            (tabs.Items[tabs.Items.Count - 1] as TabItem).Content = new System.Windows.Controls.WebBrowser
-            {
-                Source = new Uri(url),
+            tabItem.Content = new System.Windows.Controls.WebBrowser {
+                Source = new Uri(url)
             };
+            tabs.Items.Insert(tabs.Items.Count - 1, tabItem);
+            tabs.SelectedItem = tabs.Items[tabs.Items.Count - 2];
         }
     }
 }
